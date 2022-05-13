@@ -16,41 +16,41 @@ namespace jumperDude
         List<string> idle = new List<string>
         
 {
-        "pack://application:,,,/2dGame;component/Resource/Animation/Animation_Idle/idle1.png",
-        "pack://application:,,,/2dGame;component/Resource/Animation/Animation_Idle/idle2.png",
-        "pack://application:,,,/2dGame;component/Resource/Animation/Animation_Idle/idle3.png",
-        "pack://application:,,,/2dGame;component/Resource/Animation/Animation_Idle/idle4.png",
-        "pack://application:,,,/2dGame;component/Resource/Animation/Animation_Idle/idle5.png",
-        "pack://application:,,,/2dGame;component/Resource/Animation/Animation_Idle/idle6.png",
-        "pack://application:,,,/2dGame;component/Resource/Animation/Animation_Idle/idle7.png",
-        "pack://application:,,,/2dGame;component/Resource/Animation/Animation_Idle/idle8.png",
-        "pack://application:,,,/2dGame;component/Resource/Animation/Animation_Idle/idle9.png",
-        "pack://application:,,,/2dGame;component/Resource/Animation/Animation_Idle/idle10.png",
-        "pack://application:,,,/2dGame;component/Resource/Animation/Animation_Idle/idle11.png",
-        "pack://application:,,,/2dGame;component/Resource/Animation/Animation_Idle/idle12.png",
+        "pack://application:,,,/jumperDude;component/Resource/Animation/Animation_Idle/idle1.png",
+        "pack://application:,,,/jumperDude;component/Resource/Animation/Animation_Idle/idle2.png",
+        "pack://application:,,,/jumperDude;component/Resource/Animation/Animation_Idle/idle3.png",
+        "pack://application:,,,/jumperDude;component/Resource/Animation/Animation_Idle/idle4.png",
+        "pack://application:,,,/jumperDude;component/Resource/Animation/Animation_Idle/idle5.png",
+        "pack://application:,,,/jumperDude;component/Resource/Animation/Animation_Idle/idle6.png",
+        "pack://application:,,,/jumperDude;component/Resource/Animation/Animation_Idle/idle7.png",
+        "pack://application:,,,/jumperDude;component/Resource/Animation/Animation_Idle/idle8.png",
+        "pack://application:,,,/jumperDude;component/Resource/Animation/Animation_Idle/idle9.png",
+        "pack://application:,,,/jumperDude;component/Resource/Animation/Animation_Idle/idle10.png",
+        "pack://application:,,,/jumperDude;component/Resource/Animation/Animation_Idle/idle11.png",
+        "pack://application:,,,/jumperDude;component/Resource/Animation/Animation_Idle/idle12.png",
 };
 
 
         List<string> run =  new List<string>
     {
-        "pack://application:,,,/2dGame;component/Resource/Animation/Animation_Run/run1.png",
-        "pack://application:,,,/2dGame;component/Resource/Animation/Animation_Run/run2.png",
-        "pack://application:,,,/2dGame;component/Resource/Animation/Animation_Run/run3.png",
-        "pack://application:,,,/2dGame;component/Resource/Animation/Animation_Run/run4.png",
-        "pack://application:,,,/2dGame;component/Resource/Animation/Animation_Run/run5.png",
-        "pack://application:,,,/2dGame;component/Resource/Animation/Animation_Run/run6.png",
-        "pack://application:,,,/2dGame;component/Resource/Animation/Animation_Run/run7.png",
-        "pack://application:,,,/2dGame;component/Resource/Animation/Animation_Run/run8.png",
+        "pack://application:,,,/jumperDude;component/Resource/Animation/Animation_Run/run1.png",
+        "pack://application:,,,/jumperDude;component/Resource/Animation/Animation_Run/run2.png",
+        "pack://application:,,,/jumperDude;component/Resource/Animation/Animation_Run/run3.png",
+        "pack://application:,,,/jumperDude;component/Resource/Animation/Animation_Run/run4.png",
+        "pack://application:,,,/jumperDude;component/Resource/Animation/Animation_Run/run5.png",
+        "pack://application:,,,/jumperDude;component/Resource/Animation/Animation_Run/run6.png",
+        "pack://application:,,,/jumperDude;component/Resource/Animation/Animation_Run/run7.png",
+        "pack://application:,,,/jumperDude;component/Resource/Animation/Animation_Run/run8.png",
     };
 
         List<string> coinAnimation = new List<string>
-        {     "pack://application:,,,/2dGame;component/Resource/Animation/Animation_Coin/coin1.png",
-              "pack://application:,,,/2dGame;component/Resource/Animation/Animation_Coin/coin2.png",
-              "pack://application:,,,/2dGame;component/Resource/Animation/Animation_Coin/coin3.png",
-              "pack://application:,,,/2dGame;component/Resource/Animation/Animation_Coin/coin4.png",
-              "pack://application:,,,/2dGame;component/Resource/Animation/Animation_Coin/coin5.png",
-              "pack://application:,,,/2dGame;component/Resource/Animation/Animation_Coin/coin6.png",
-              "pack://application:,,,/2dGame;component/Resource/Animation/Animation_Run/run8.png",
+        {     "pack://application:,,,/jumperDude;component/Resource/Animation/Animation_Coin/coin1.png",
+              "pack://application:,,,/jumperDude;component/Resource/Animation/Animation_Coin/coin2.png",
+              "pack://application:,,,/jumperDude;component/Resource/Animation/Animation_Coin/coin3.png",
+              "pack://application:,,,/jumperDude;component/Resource/Animation/Animation_Coin/coin4.png",
+              "pack://application:,,,/jumperDude;component/Resource/Animation/Animation_Coin/coin5.png",
+              "pack://application:,,,/jumperDude;component/Resource/Animation/Animation_Coin/coin6.png",
+              "pack://application:,,,/jumperDude;component/Resource/Animation/Animation_Run/run8.png",
 };
 
         int playerCounter = 0;
@@ -111,7 +111,7 @@ namespace jumperDude
 
                         element.Fill = new ImageBrush
                         {
-                            ImageSource = new BitmapImage(new Uri("pack://application:,,,/2dGame;component/Resource/PNG/book.png", UriKind.Absolute))
+                            ImageSource = new BitmapImage(new Uri("pack://application:,,,/jumperDude;component/Resource/PNG/book.png", UriKind.Absolute))
                         };
                     }
                     else

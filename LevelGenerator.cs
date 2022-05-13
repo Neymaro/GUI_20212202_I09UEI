@@ -51,7 +51,7 @@ namespace jumperDude
                 rect.StrokeThickness = 1;
                 rect.Fill = new ImageBrush
                 {
-                    ImageSource = new BitmapImage(new Uri("pack://application:,,,/2dGame;component/Resource/PNG/book.png", UriKind.Absolute))
+                    ImageSource = new BitmapImage(new Uri("pack://application:,,,/jumperDude;component/Resource/PNG/book.png", UriKind.Absolute))
                 };
                 rect.Stretch = Stretch.Fill;
                 rect.RadiusX = 15;
